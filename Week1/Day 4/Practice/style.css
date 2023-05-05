@@ -1,0 +1,33 @@
+.nav {
+    background-color: rgba(0, 0, 0, 0.74);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-links {
+
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.active {}
+
+a {
+    color: white;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    font-size: large;
+    border: 10px;
+    border-color: black;
+}
+a {
+    text-decoration: none;
+}
