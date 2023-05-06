@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+.row {
+    
+    display: flex;
+    
+
+}
+.col, .col-2, .col-3  {
+    flex: 1;
+    background-color: lightcoral;
+    color: blanchedalmond;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.col-3 {
+    flex: 3;
+}
