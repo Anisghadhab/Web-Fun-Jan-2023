@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    margin: 30px;
+    height: 260px;
+    width: 600px;
+    border:  solid rgb(179, 177, 177);
+
+}
+.bonde {
+    background-color: rgb(12, 156, 156);
+    width: 600px;
+    height: 70px;
+}
+
+.flex {
+    height: 150px;
+    width: 600px;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-weight:bold ;
+    flex-direction: column;
+    justify-content: space-between;
+
+/
+}   
+
+.location, .flex, .edit {
+    display: flex;
+}
+
+img {
+    height: 15px;
+    margin-right: 5px;
+}
+
+p {
+    margin-left: 5px;
+}
+.position {
+    height : 70px;
+    position: absolute;
+    top : 65px;
+    left : 65px
+}
+a{
+    color: rgb(73, 127, 188);
+}
