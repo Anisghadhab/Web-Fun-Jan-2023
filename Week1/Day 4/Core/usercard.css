@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Block {
+    background-color: rgba(0, 0, 0, 0.74);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+
+}
+
+.nav-links {
+
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+.btn {
+    background-color: blue;
+    color: white;
+    font-size: large;
+    border: 10px;
+    border-color: black;
+}
+
+.bartext {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin: 30px;
+    height: 260px;
+    width: 600px;
+    border: solid rgb(179, 177, 177);
+
+}
+
+.bonde {
+    background-color: rgb(12, 156, 156);
+    width: 600px;
+    height: 70px;
+}
+
+.flex {
+    height: 150px;
+    width: 600px;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-weight: bold;
+    /* flex-direction: column;
+    justify-content: space-between; */
+}
+
+.location,
+.edit,
+.main,
+.flex {
+    display: flex;
+}
+
+img {
+    height: 15px;
+    margin-right: 5px;
+}
+
+p {
+    margin-left: 5px;
+}
+
+.position {
+    height: 70px;
+    position: absolute;
+    top: 140px;
+    left: 65px
+}
+
+a {
+    color: rgb(73, 127, 188);
+}
+
+.flex {
+    flex-direction: column;
+    justify-content: space-between;
+}
