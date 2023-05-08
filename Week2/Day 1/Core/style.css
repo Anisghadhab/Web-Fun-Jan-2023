@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    padding: 25px;
+    padding-top: 0px;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    background-color: hsl(0deg 0% 80%);
+    width: 610px;
+    padding: 10px;
+
+}
+.dojonary{
+    margin-top: 10px;
+}
+.search{
+    margin: 15px;
+    width: 230px;
+    height: 25px;
+}
+.btnlogin{
+    width: 60px;
+    height: 25px;
+    margin-top: 15px;
+    background-color: hsl(215.03deg 77.41% 53.14%);
+    box-shadow: 5px 5px 5px black;
+    border: solid;
+    color: white;
+
+}
+.btnadd{
+    margin-top: 20px;
+    width: 180px;
+    height: 28px;
+    background-color: hsl(101.41deg 37.57% 62.94%);
+    box-shadow: 5px 5px 5px ;
+    border: solid;
+}
+.likesbtn{
+    margin-top: 10px;
+    padding: 3px;
+    width: 80px;
+    background-color: hsl(45.1deg 100% 70%);
+    box-shadow: 5px 5px 5px ;
+    border: solid;
+}
+a{
+    color: hsl(207.86deg 89.74% 30.59%);
+}
+.box1, .box2{
+    border: solid;
+    width: 320px;
+    height: 120px;
+    padding: 15px;
+    padding-right: 50px;
+    display: flex;
+    margin-top: 20px;
+}
+.rightbox{
+    border:solid;
+    padding: 20px;
+    width: 175px;
+    height: 100px;
+    margin: 20px;
+}
+
+.box1left, .box2left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1center, .box2center{
+    justify-content: center;
+    font-size: large;
+    margin-top: 34px;
+    margin-left: 25px;
+}
+.flex{
+    display: flex;
+}
+
