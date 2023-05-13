@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
+
+}
+.nav-bar {
+    background-color: hsl(214.38deg 86.41% 79.8%);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.links{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    text-decoration-color: none;
+}
+.sanjose{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 2px solid;
+    margin-right: 175px;
+    margin-left: 175px;
+    margin-bottom: 25px;
+}
+.container {
+    padding-left: 170px;
+    padding-right: 170px;
+}
+.day img {
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    margin-left: 45px;
+}
+.cookies img {
+    height: 100px;
+}
+.Weather{
+    display: flex;
+    justify-content: space-between;
+}
+.day {
+    text-align: center;
+    background-color: hsl(0deg 0% 93.33%);
+    height: 450px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.temp, .temp p {
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+}
+.cookies{
+
+    background-color: hsl(0deg 0% 93.33%);
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    border : solid;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+
+
+
+
+}
+
+p{
+    font-size: x-large;
+    font-weight: bold;
+
+}
+.cookies a {
+    color: hsl(207.86deg 89.74% 30.59%);
+    text-decoration: underline;
+}
+
+.left1, .left2, .left3, .left4 {
+    color:hsl(1.07deg 68.29% 48.24%);
+}
+.right1, .right2, .right3, .right4 {
+    color:hsl(215.03deg 77.41% 53.14%)
+    ;
+}
+.button {
+    color: black;
+    font-size: larger;
+    background-color: hsl(214.38deg 86.41% 79.8%);
+    padding: 5px;
+    box-shadow: 5px 5px 5px;
+    border: solid;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+label {
+    font-size: large;
+}
+.nav-bar h1 {
+    font-size: 300%;
+}

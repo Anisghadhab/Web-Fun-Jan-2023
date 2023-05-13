@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <h1>DojoWeather</h1>
+        <div class="links">
+            <h2><a href="#" onclick="signal()">Burbank</a></h2>
+            <h2><a href="#" onclick="signal()">Chicago</a></h2>
+            <h2><a href="#" onclick="signal()">Dallas</a></h2>
+        </div>
+    </div>
+
+    <div class="sanjose">
+        <h1>San jose</h1>
+        <div class="temp">
+            <label>show temperature in </label>
+            <select class="deg" onchange="change()">
+                <option class="deg1">°C</option>
+                <option class="deg2">°F</option>
+            </select>
+        </div>
+    </div>
+    <div></div>
+    <div class="container">
+        <div class="Weather">
+            <div class="day">
+                <h1>Today</h1>
+                <img src="/images/some_rain.png" alt="">
+                <p>some rain</p>
+                <div class="temp">
+                    <p class="left1">24°</p>
+                    <p class="right1">18°</p>
+                </div>
+            </div>
+            <div class="day">
+                <h1>Tomorrow</h1>
+                <img src="/images/some_sun.png" alt="">
+                <p>some sun</p>
+                <div class="temp">
+                    <p class="left2">27°</p>
+                    <p class="right2">19°</p>
+                </div>
+            </div>
+            <div class="day">
+                <h1>Friday</h1>
+                <img src="/images/some_clouds.png" alt="">
+                <p>some clouds</p>
+                <div class="temp">
+                    <p class="left3">21°</p>
+                    <p class="right3">16°</p>
+                </div>
+            </div>
+            <div class="day">
+                <h1>Saturday</h1>
+                <img src="/images/some_sun.png" alt="">
+                <p>some sun</p>
+                <div class="temp">
+                    <p class="left4">26°</p>
+                    <p class="right4">21°</p>
+                </div>
+            </div>
+        </div>
+        <div class="cookies">
+            <img class="cookimg" src="images/cookie.png" alt="">
+            <div class="text-cookies">
+                <h1>Stop! Cookie time</h1>
+                <p>we use cookies (sadly not the edible ones ) to personalize</p>
+                <p>wontent and ads, to provide social media feattures and to</p>
+                <p>analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button class="button" onclick="dis()">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
