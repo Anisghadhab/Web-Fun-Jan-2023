@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .boxes {
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            text-align: center;
+            flex-flow: row wrap;
+            margin: 25px;
+
+
+        }
+
+        .box {
+            border: 2px solid black;
+            width: 200px;
+            height: 200px;
+            background-color: #9fc5f8;
+            margin: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        {% for i in range (0,num): %}
+        <div class="box" style="background-color: {{color}};"></div>
+        {% endfor %}
+    </div>
+</body>
+
+</html>
