@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f1f8ff;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 500px;
+        }
+
+        .form-control {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2 class="text-center">Recipe Form</h2>
+
+            <form action="/recipes/create" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" name="name" placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea class="form-control" name="description" rows="3" placeholder="Enter description"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="instructions">Instructions</label>
+                    <textarea class="form-control" name="instruction" rows="5"
+                        placeholder="Enter instructions"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="datecooked">Date Cooked/Made (Date)</label>
+                    <input type="date" class="form-control" name="date">
+                </div>
+                <div class="form-group">
+                    <label for="under30mins">Under 30 Minutes?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="under"  value=1>
+                        <label class="form-check-label" for="yes">Yes</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="under"  value=0>
+                        <label class="form-check-label" for="no">No</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <a href="/recipes">back to recipes</a>
+            <a href="/logout">logout</a>
+        </div>
+        {%for message in get_flashed_messages()%}
+            <p class="text-danger">{{message}}</p>
+            {%endfor%}
+    </div>
+
+
+</html>
